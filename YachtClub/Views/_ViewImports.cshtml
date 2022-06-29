@@ -1,0 +1,12 @@
+﻿<!-- using statement will allow me to use the types in the YachtClub-->
+<!-- Works after creation class Yacht--> 
+@using YachtClub.Models
+@using YachtClub.Models.ViewModels
+
+<!-- addTagHelper statement enables the built-in tag helpers, which 
+     to create HTML elements that reflect the configuration of the 
+     YachtClub application.-->
+ 
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers 
+@addTagHelper YachtClub.Infrastructure.*, YachtClub
+
